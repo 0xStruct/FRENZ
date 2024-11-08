@@ -1,5 +1,7 @@
 {
 	"contracts": {
+		"CommentNFT": "./contracts/FanNFT.cdc",
+		"PostNFT": "./contracts/FanNFT.cdc",
 		"FanNFT": "./contracts/FanNFT.cdc",
 		"FollowNFT": "./contracts/FollowNFT.cdc",
 		"ProfileNFT": "./contracts/ProfileNFT.cdc",
@@ -80,7 +82,9 @@
 				"SimpleNFT",
 				"ProfileNFT",
 				"FollowNFT",
-				"FanNFT"
+				"FanNFT",
+				"PostNFT",
+				"CommentNFT"
 			],
 			"emulator-alice": [],
 			"emulator-bob": []
